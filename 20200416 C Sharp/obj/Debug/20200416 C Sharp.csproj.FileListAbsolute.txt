@@ -1,0 +1,7 @@
+C:\Users\skagu\source\repos\20200416 C Sharp\20200416 C Sharp\obj\Debug\20200416 C Sharp.csprojAssemblyReference.cache
+C:\Users\skagu\source\repos\20200416 C Sharp\20200416 C Sharp\obj\Debug\20200416 C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\skagu\source\repos\20200416 C Sharp\20200416 C Sharp\bin\Debug\20200416 C Sharp.exe.config
+C:\Users\skagu\source\repos\20200416 C Sharp\20200416 C Sharp\bin\Debug\20200416 C Sharp.exe
+C:\Users\skagu\source\repos\20200416 C Sharp\20200416 C Sharp\bin\Debug\20200416 C Sharp.pdb
+C:\Users\skagu\source\repos\20200416 C Sharp\20200416 C Sharp\obj\Debug\20200416 C Sharp.exe
+C:\Users\skagu\source\repos\20200416 C Sharp\20200416 C Sharp\obj\Debug\20200416 C Sharp.pdb
