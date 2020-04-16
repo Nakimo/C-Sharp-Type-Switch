@@ -8,6 +8,25 @@ namespace _20200416_C_Sharp
 {
     class Program
     {
+
+        static void TestFN3(params object[] param)
+        {
+            int sum = 0;
+            for (int i = 0; i < param.Length; i++)
+            {
+                if (param[i].GetType() == typeof(int)) {
+                    sum += (int)param[i];
+                }
+                else if (param[i].GetType() == typeof(string)) {
+                    sum += Convert.ToInt32(param[i]);
+                }
+
+                Console.Write($"{param[i]}");
+                if (i < param.Length - 1) Console.Write(" + ");
+            }
+            Console.WriteLine($" = {sum}");
+        }
+
         static void Main(string[] args)
         {
             //object temp_obj_val1 = 10;
@@ -26,14 +45,18 @@ namespace _20200416_C_Sharp
                       Console.WriteLine("String\n");
                       break;
                   default:
-                      Console.WriteLine("etc\n");
+                      Console.WriteLine("Etc\n");
                       break;
               }
 
             if (temp_obj_val1.GetType() == typeof(int)) Console.WriteLine("INT32\n");
             else if (temp_obj_val1.GetType() == typeof(float)) Console.WriteLine("Single\n");
             else if (temp_obj_val1.GetType() == typeof(string)) Console.WriteLine("String\n");
-            else Console.WriteLine("etc\n");
+            else Console.WriteLine("Etc\n");
+
+
+            TestFN3(10, 20, "30", 40, "50", "60");
+            
         }
     }
 }
